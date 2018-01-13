@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Hoja de Vida</title>
+</head>
+<body>
+	<header>
+		<svg>
+			<image xlink:href="recursos/imagenes/logo.svg" width="300" height="100" x="20" y="20">
+			</image>
+		</svg>
+		<h1>Resumen Curricular</h1>
+		<br>
+	</header>
+	<section>
+		<h2><em>Datos Personales</em></h2>
+		<h3><em>Nombre: </em>Jonas Jonas</h3>
+		<h3><em>Apellido: </em>Salcedo Salcedo</h3>
+		<h3><em>Fecha de Nacimiento: </em>01 de Enero 1990</h3>
+		<h3><em>Lugar de Nacimiento: </em>Londres, Inglaterra</h3>
+		<br>
+	</section>
+	<nav>
+		<h2><em>Menú de Navegación</em></h2>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experciencia</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h2>Educación</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2013</td>
+					<td>SENA</td>
+					<td>Santafé de Bogotá</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2015</td>
+					<td>SENA</td>
+					<td>Santafé de Bogotá</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>SENA</td>
+					<td>Santafé de Bogotá</td>
+					<td>No</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<br>
+	<form autocomplete="off" name="form-estudios">
+		<fieldset>
+			<legend>Agregar Estudios</legend>
+			<p>
+				<label for="anio">Año</label>
+				<select>
+					<option value="2017">2017</option>
+					<option value="2016">2016</option>
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2012">2012</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+					<option value="2009">2009</option>
+					<option value="2008">2008</option>
+					<option value="2007">2007</option>
+					<option value="2006">2006</option>
+					<option value="2005">2005</option>
+					<option value="2004">2004</option>
+					<option value="2003">2003</option>
+					<option value="2002">2002</option>
+					<option value="2001">2001</option>
+					<option value="2000">2000</option>
+				</select>
+			</p>
+			<p>
+				<label for="institucion">Institución</label>
+				<input type="text" name="institucion" placeholder="institucion" required="">
+			</p>
+			<p>
+				<label for="lugar">Lugar</label>
+				<textarea rows"5" cols="90" name="lugar">
+				</textarea>
+			</p>
+			<p>
+				<label for="culmino">¿Culminó?</label>
+				<input type="radio" name="culmino" value="si">Si
+				<input type="radio" name="culmino" value="no">No
+			</p>
+			<p>
+				<input type="button" value="Enviar">
+			</p>
+		</fieldset>
+	</form>
+	<footer>
+		<h3>Contacto</h3>
+		<p><a href="mailto:ejemplocorreo@gmail.com" target="_blank">ejemplocorreo@gmail.com</a></p>
+		<p><a href="https://www.facebook.com/" target="_blank">ejemplo mi facebook</a></p>
+		<p><a href="tel:1234567890" target="_blank">123 345 7890</a></p>
+		<p>Av Next U Calle 1209</p>
+	</footer>
+</body>
+</html>
